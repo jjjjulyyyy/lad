@@ -1,0 +1,11 @@
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import tran_test_split
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics importt classification_report
+data={'income': [50000,60000,700000,80000],'debt_ratio':[0.1,0.2,0.3,0.4], 'repay':[1,1,1,0],'credit_risk':['A','B','A','B']}
+df=pd.DataFrame(data)
+print("original data:\n",df)
+
+
+
